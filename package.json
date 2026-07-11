@@ -1,0 +1,16 @@
+{
+  "name": "my-skills",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Custom agent skills for AI coding assistants",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version",
+    "link": "bash scripts/link-skills.sh",
+    "list": "bash scripts/list-skills.sh"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  }
+}
