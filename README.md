@@ -13,6 +13,7 @@ npx skills add CommiAI/skills
 | Skill | Description |
 |-------|-------------|
 | `example-skill` | A template for creating new skills |
+| `my-second-skill` | A brief description of what this skill does |
 
 ## Creating New Skills
 
