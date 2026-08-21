@@ -12,8 +12,23 @@ npx skills add CommiAI/skills
 
 | Skill | Description |
 |-------|-------------|
-| `example-skill` | A template for creating new skills |
-| `my-second-skill` | A brief description of what this skill does |
+| `humanlayer-orchestrator` | Orchestrates durable tasks and coding sessions through the HumanLayer CLI |
+
+## Usage
+
+The orchestrator is user-invoked so it only takes control when explicitly requested:
+
+```text
+$humanlayer-orchestrator implement these changes in parallel and return one consolidated result
+```
+
+Authenticate against either HumanLayer environment before the first run:
+
+```bash
+humanlayer login
+# or
+humanlayer --beta login
+```
 
 ## Creating New Skills
 
