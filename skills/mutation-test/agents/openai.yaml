@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mutation Test"
+  short_description: "Probe a feature's tests with mutations"
+  default_prompt: "Use $mutation-test to mutation-test the production code changed by this feature, strengthen meaningful behavioral gaps, and report the results."

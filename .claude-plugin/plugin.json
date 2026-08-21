@@ -2,6 +2,7 @@
   "name": "my-skills",
   "skills": [
     "./skills/humanlayer-orchestrator",
-    "./skills/write-gherkin"
+    "./skills/write-gherkin",
+    "./skills/mutation-test"
   ]
 }

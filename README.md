@@ -14,6 +14,7 @@ npx skills add CommiAI/skills
 |-------|-------------|
 | `humanlayer-orchestrator` | Orchestrates durable tasks and coding sessions through the HumanLayer CLI |
 | `write-gherkin` | Turns a feature request into a temporary Gherkin specification |
+| `mutation-test` | Tests the strength of a feature's tests with targeted mutations |
 
 ## Usage
 
@@ -35,6 +36,12 @@ Write Gherkin for a feature request:
 
 ```text
 $write-gherkin describe how team invitations should behave
+```
+
+Mutation-test the production code changed by a feature:
+
+```text
+$mutation-test test the permission changes in this branch
 ```
 
 ## Creating New Skills
