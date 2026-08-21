@@ -44,4 +44,4 @@ Before returning the specification, confirm:
 - scenarios do not name internal classes, functions, database methods, selectors, mocks, or test commands;
 - no QA plan, implementation plan, orchestration instructions, or permanent documentation is added.
 
-Write the specification as `<feature-slug>.feature` in the current task directory. Use a short, descriptive kebab-case filename. Do not add it to the product repository or treat it as permanent documentation. If no task directory is available, return only the specification in a `gherkin` code block.
+Write the specification as `<feature-slug>.md` in the current task directory, with the Gherkin inside a `gherkin` code block. Use a short, descriptive kebab-case filename. Do not add it to the product repository or treat it as permanent documentation. If no task directory is available, return only the specification in a `gherkin` code block.
