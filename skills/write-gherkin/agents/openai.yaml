@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Gherkin"
+  short_description: "Turn a feature request into Gherkin"
+  default_prompt: "Use $write-gherkin to write this feature request as a concise Gherkin specification in the current task directory."

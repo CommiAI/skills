@@ -13,6 +13,7 @@ npx skills add CommiAI/skills
 | Skill | Description |
 |-------|-------------|
 | `humanlayer-orchestrator` | Orchestrates durable tasks and coding sessions through the HumanLayer CLI |
+| `write-gherkin` | Turns a feature request into a temporary Gherkin specification |
 
 ## Usage
 
@@ -28,6 +29,12 @@ Authenticate against either HumanLayer environment before the first run:
 humanlayer login
 # or
 humanlayer --beta login
+```
+
+Write Gherkin for a feature request:
+
+```text
+$write-gherkin describe how team invitations should behave
 ```
 
 ## Creating New Skills

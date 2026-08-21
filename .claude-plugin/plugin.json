@@ -1,6 +1,7 @@
 {
   "name": "my-skills",
   "skills": [
-    "./skills/humanlayer-orchestrator"
+    "./skills/humanlayer-orchestrator",
+    "./skills/write-gherkin"
   ]
 }
