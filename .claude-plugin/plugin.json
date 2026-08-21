@@ -1,7 +1,6 @@
 {
   "name": "my-skills",
   "skills": [
-    "./skills/example-skill",
-    "./skills/my-second-skill"
+    "./skills/humanlayer-orchestrator"
   ]
 }

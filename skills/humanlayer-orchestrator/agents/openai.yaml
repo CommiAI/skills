@@ -1,0 +1,4 @@
+interface:
+  display_name: "HumanLayer Orchestrator"
+  short_description: "Orchestrate HumanLayer tasks and sessions"
+  default_prompt: "Use $humanlayer-orchestrator to orchestrate this request as durable HumanLayer tasks and coding sessions, supervise the work, and return one consolidated outcome."
