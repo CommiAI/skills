@@ -17,6 +17,7 @@ npx skills add CommiAI/skills
 | `frontend-skill` | Guides visually strong interfaces with restrained composition, imagery, and motion |
 | `opinionated-code-structure` | Organizes functions in top-down reading order with useful one-sentence comments |
 | `writing-for-agents` | Guides writing skills, agent instructions, and other documents agents consume |
+| `correct` | Turns recurring agent mistakes into proven architectural, type, lint, or test safeguards |
 
 ## Usage
 
@@ -32,9 +33,9 @@ Generated skills live in `.agents/skills/verify-<app>/` in the application repo.
 
 ## Upstream attribution
 
-`create-verification-skill` and `maintain-verification-skill` are copied from [pstack](https://github.com/cursor/plugins/tree/main/pstack), by Lauren Tan (poteto), including its feature-map examples and MIT license. Source commit: `ccb5507cec1546dc88135c1139c811e6c59115ba`.
+`create-verification-skill`, `maintain-verification-skill`, and `correct` are copied from [pstack](https://github.com/cursor/plugins/tree/main/pstack), by Lauren Tan (poteto), including its feature-map examples and MIT license. Source commit: `ccb5507cec1546dc88135c1139c811e6c59115ba`.
 
-These are locally maintained copies, not automatically updated dependencies. The only changes to the upstream skill instructions are `.cursor/skills/` → `.agents/skills/`.
+These are locally maintained copies, not automatically updated dependencies. The only changes to the verification skills' upstream instructions are `.cursor/skills/` → `.agents/skills/`. `correct` is copied unchanged.
 
 `writing-for-agents` is copied unchanged from [Matt Pocock's skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents), including its companion reference, agent metadata, and MIT license. Source commit: `f3fc5632f401156837ee3872f14fe33ccf1024ea`. It is also maintained locally.
 
