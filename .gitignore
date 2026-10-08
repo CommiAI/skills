@@ -1,2 +1,8 @@
 node_modules/
 .DS_Store
+
+# Riptide artifacts (cloud-synced)
+.humanlayer/tasks/
+
+# Riptide artifacts (cloud-synced)
+.humanlayer/tasks/
