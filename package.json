@@ -1,6 +1,6 @@
 {
   "name": "my-skills",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "Custom agent skills for AI coding assistants",
   "scripts": {
