@@ -12,37 +12,26 @@ npx skills add CommiAI/skills
 
 | Skill | Description |
 |-------|-------------|
-| `humanlayer-orchestrator` | Orchestrates durable tasks and coding sessions through the HumanLayer CLI |
-| `write-gherkin` | Turns a feature request into a temporary Gherkin specification |
-| `mutation-test` | Tests the strength of a feature's tests with targeted mutations |
+| `create-verification-skill` | Creates a repo-specific skill, driving tools, and feature map for verifying real app behavior |
+| `maintain-verification-skill` | Audits the verification skill and feature map against source and live app behavior |
 
 ## Usage
 
-The orchestrator is user-invoked so it only takes control when explicitly requested:
+In the application repo, ask your agent to run `create-verification-skill`:
 
 ```text
-$humanlayer-orchestrator implement these changes in parallel and return one consolidated result
+Use create-verification-skill to build a verification skill for this app.
 ```
 
-Authenticate against either HumanLayer environment before the first run:
+The creator lives here; the generated verification skill and any helpers live in the application repo. Run the creator initially, then use and maintain the generated skill to verify changes.
 
-```bash
-humanlayer login
-# or
-humanlayer --beta login
-```
+Generated skills live in `.agents/skills/verify-<app>/` in the application repo. Use `maintain-verification-skill` to keep them current.
 
-Write Gherkin for a feature request:
+## Upstream attribution
 
-```text
-$write-gherkin describe how team invitations should behave
-```
+`create-verification-skill` and `maintain-verification-skill` are copied from [pstack](https://github.com/cursor/plugins/tree/main/pstack), by Lauren Tan (poteto), including its feature-map examples and MIT license. Source commit: `ccb5507cec1546dc88135c1139c811e6c59115ba`.
 
-Mutation-test the production code changed by a feature:
-
-```text
-$mutation-test test the permission changes in this branch
-```
+These are locally maintained copies, not automatically updated dependencies. The only changes to the upstream skill instructions are `.cursor/skills/` → `.agents/skills/`.
 
 ## Creating New Skills
 
