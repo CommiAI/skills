@@ -2,6 +2,8 @@
   "name": "my-skills",
   "skills": [
     "./skills/create-verification-skill",
-    "./skills/maintain-verification-skill"
+    "./skills/maintain-verification-skill",
+    "./skills/frontend-skill",
+    "./skills/opinionated-code-structure"
   ]
 }

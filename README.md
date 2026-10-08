@@ -14,6 +14,8 @@ npx skills add CommiAI/skills
 |-------|-------------|
 | `create-verification-skill` | Creates a repo-specific skill, driving tools, and feature map for verifying real app behavior |
 | `maintain-verification-skill` | Audits the verification skill and feature map against source and live app behavior |
+| `frontend-skill` | Guides visually strong interfaces with restrained composition, imagery, and motion |
+| `opinionated-code-structure` | Organizes functions in top-down reading order with useful one-sentence comments |
 
 ## Usage
 
