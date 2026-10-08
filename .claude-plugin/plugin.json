@@ -4,6 +4,7 @@
     "./skills/create-verification-skill",
     "./skills/maintain-verification-skill",
     "./skills/frontend-skill",
-    "./skills/opinionated-code-structure"
+    "./skills/opinionated-code-structure",
+    "./skills/writing-for-agents"
   ]
 }
