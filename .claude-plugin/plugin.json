@@ -6,6 +6,7 @@
     "./skills/frontend-skill",
     "./skills/opinionated-code-structure",
     "./skills/writing-for-agents",
-    "./skills/correct"
+    "./skills/correct",
+    "./skills/gardening-the-codebase"
   ]
 }
