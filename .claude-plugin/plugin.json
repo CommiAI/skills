@@ -7,6 +7,7 @@
     "./skills/opinionated-code-structure",
     "./skills/writing-for-agents",
     "./skills/correct",
-    "./skills/gardening-the-codebase"
+    "./skills/gardening-the-codebase",
+    "./skills/implement"
   ]
 }

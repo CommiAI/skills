@@ -19,6 +19,7 @@ npx skills add CommiAI/skills
 | `writing-for-agents` | Guides writing skills, agent instructions, and other documents agents consume |
 | `correct` | Turns recurring agent mistakes into proven architectural, type, lint, or test safeguards |
 | `gardening-the-codebase` | Finds architectural friction and simplification opportunities, develops selected designs, and guides explicitly requested refactoring |
+| `implement` | Turns supplied context into scoped implementation, coordinated work, review, and verified behavior |
 
 ## Usage
 
@@ -41,6 +42,8 @@ These are locally maintained copies, not automatically updated dependencies. The
 `writing-for-agents` is copied unchanged from [Matt Pocock's skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents), including its companion reference, agent metadata, and MIT license. Source commit: `f3fc5632f401156837ee3872f14fe33ccf1024ea`. It is also maintained locally.
 
 `gardening-the-codebase` adapts Matt Pocock's `improve-codebase-architecture` and `codebase-design` with selected pstack principles by Lauren Tan.
+
+`implement` combines feature implementation principles from pstack by Lauren Tan and Matt Pocock's implementation and behavioral testing guidance.
 
 ## Creating New Skills
 
