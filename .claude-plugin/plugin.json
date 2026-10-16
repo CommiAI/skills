@@ -1,13 +1,8 @@
 {
   "name": "my-skills",
   "skills": [
-    "./skills/create-verification-skill",
-    "./skills/maintain-verification-skill",
     "./skills/frontend-skill",
     "./skills/opinionated-code-structure",
-    "./skills/writing-for-agents",
-    "./skills/correct",
-    "./skills/gardening-the-codebase",
-    "./skills/implement"
+    "./skills/writing-for-agents"
   ]
 }
